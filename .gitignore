@@ -5,3 +5,6 @@ Debug/
 *.exe
 *.obj
 *.pdb
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
