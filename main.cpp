@@ -1,12 +1,14 @@
-﻿//#define TEST_MLP
+﻿#define TEST_MLP
 
 #ifdef TEST_MLP
 #include "MLP.h"
+#include "tests.h"
 #include <iostream>
 #include <vector>
 
 int main() {
-    MLP::testMLP();
+    //MLP::testMLP();
+    test_compute_kv_matrices();
 }
 #else
 #include "LLM.h"
